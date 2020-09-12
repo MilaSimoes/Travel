@@ -1,0 +1,171 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	background: #1A1A1A;
+	font-family: 'Poppins', sans-serif;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+
+.container-fluid {
+	padding: 50px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.box{
+	display: inline-block;
+	background: linear-gradient(20deg,#1E1E1E,#252525,#2C2C2C) ;
+	width: 200px;
+	height: 200px;
+	border-radius: 10px;
+	font-size: 2em;
+	color: #fff;
+	font-weight: 200;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+	margin: 30px;
+	padding: 5px;
+	text-shadow: -5px 2px 2px rgba(0, 0, 0, 0.5);
+	box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.3);
+	text-align: center;
+}
+
+.box.travel{
+	border-left: 1px solid #DF0174;
+	border-bottom: 1px solid #DF0174;
+}
+
+i {
+	margin-bottom: 5px;
+	font-size: 1.5em;
+	text-shadow: -10px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+i.fa-map-marker-alt {
+	color:#DF0174;
+}
+
+/********************************/
+
+.box.friends {
+	border-left: 1px solid #00BFFF;
+	border-bottom: 1px solid #00BFFF;
+}
+
+i.fa-users {
+	color: #00BFFF;
+}
+
+.box.bars {
+	border-left: 1px solid #7A04F8;
+	border-bottom: 1px solid #7A04F8;
+}
+
+i.fa-glass-martini {
+	color: #7A04F8;
+}
+
+.box.recipes {
+	border-left: 1px solid #AE671A;
+	border-bottom: 1px solid #AE671A;
+}
+
+i.fa-cookie-bite {
+	color: #AE671A;
+}
+
+/****************************************/
+
+.box.restaurants {
+	border-left: 1px solid #9E9D9D;
+	border-bottom: 1px solid #9E9D9D;
+}
+
+i.fa-utensils{
+	color: #9E9D9D;
+}
+
+.box.events {
+	border-left: 1px solid #FFEB07;
+	border-bottom: 1px solid #FFEB07;
+}
+
+i.fa-star {
+	color: #FFEB07;
+}
+
+.box.safe-place {
+	border-left: 1px solid #64FE2E;
+	border-bottom: 1px solid #64FE2E;
+}
+
+i.fa-check-circle {
+	color: #64FE2E;
+}
+
+.box.shop {
+	border-left: 1px solid #E893E2;
+	border-bottom: 1px solid #E893E2;
+}
+
+i.fa-tags {
+	color: #E893E2;
+}
+
+
+.box.english {
+	border-left: 1px solid #B19B79;
+	border-bottom: 1px solid #B19B79;
+}
+
+i.fa-book {
+	color: #B19B79;
+}
+
+.box.extra-money {
+	border-left: 1px solid #099901;
+	border-bottom: 1px solid #099901;
+}
+
+i.fa-dollar-sign {
+	color: #099901;
+}
+
+
+.box.health {
+	border-left: 1px solid red;
+	border-bottom: 1px solid red;
+}
+
+i.fa-heartbeat {
+	color: red;
+}
+
+.box:hover {
+	transition: 0.25s;
+	color: white;
+	border-left: 0px;
+	border-bottom: 0px;
+	transform: translate(-5px, 5px);
+	box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+@media(max-width: 619px) {
+	.box {
+		margin: 20px 10px;
+		font-size: 1.6em;
+	}
+}
